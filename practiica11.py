@@ -1,6 +1,6 @@
 #manejo de excepciones 
 
-#TRY
+ #TRY
 try:
     # Código que puede generar una excepción
     resultado = 10 / 0  # División por cero
@@ -8,7 +8,7 @@ try:
 except ZeroDivisionError:
     print("Error: División por cero")
 
-#EXCEPT
+ #EXCEPT
 try:
     # Código que puede generar una excepción
     resultado = 10 / 0  # División por cero
@@ -18,7 +18,7 @@ except ZeroDivisionError:
 except ValueError:
     print("Error: Valor inválido")
   
-#FINALY
+ #FINALY
 try:
     # Código que puede generar una excepción
     archivo = open("archivo.txt", "r")
