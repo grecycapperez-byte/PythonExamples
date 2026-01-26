@@ -18,3 +18,13 @@ count*=2
 count -=1
 # Don't change the line below
 print(f"count = {count}")
+
+#matematicas simples 
+# Type your code below
+# Replace question marks with correct values
+a = 4
+b = 6
+
+# Don't change the line below
+c = b * a
+print(f'c = {c}')
