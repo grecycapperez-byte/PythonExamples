@@ -19,6 +19,7 @@ count -=1
 # Don't change the line below
 print(f"count = {count}")
 
+
 #matematicas simples 
 # Type your code below
 # Replace question marks with correct values
@@ -28,3 +29,9 @@ b = 6
 # Don't change the line below
 c = b * a
 print(f'c = {c}')
+
+k=250
+h=5
+u= k/h
+print(f'u={u}')
+
