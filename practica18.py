@@ -13,3 +13,9 @@ area= base * altura
 perimetro= (2 * base)+(2 * altura)
 print("El area es de:",area)
 print("El perimetro es de:",perimetro)
+
+#Entender la diferencia entre división normal / y división entera //.
+mintotal = 130
+hora = mintotal //60
+minrest= mintotal % 60
+print("Son",hora,"horas y", minrest, "minutos.")
