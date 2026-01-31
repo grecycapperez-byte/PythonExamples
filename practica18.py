@@ -35,3 +35,11 @@ nacimi= int(input("¿En qué año naciste? "))
 anacl = 2026
 edad= anacl - nacimi
 print("Al final del 2026 tnedras:",edad,"años.")
+
+cuenta = float(input("¿De cuánto fue la cuenta? "))
+
+propina = cuenta * 0.10
+total_a_pagar = cuenta + propina
+
+print("La propina es:", propina)
+print("Debes pagar en total:", total_a_pagar)
