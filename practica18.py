@@ -19,3 +19,19 @@ mintotal = 130
 hora = mintotal //60
 minrest= mintotal % 60
 print("Son",hora,"horas y", minrest, "minutos.")
+
+#Objetivo: Usar el operador de potencia **
+
+
+peso= 58
+altura= 1.56
+masamus=peso/(altura **2)
+print("Tu índice de masa corporal es:", masamus)
+
+
+#Ejercicio 5: Tu Calculadora de Edad
+
+nacimi= int(input("¿En qué año naciste? "))
+anacl = 2026
+edad= anacl - nacimi
+print("Al final del 2026 tnedras:",edad,"años.")
