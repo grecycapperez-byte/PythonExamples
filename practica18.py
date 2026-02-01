@@ -44,12 +44,17 @@ total_a_pagar = cuenta + propina
 print("La propina es:", propina)
 print("Debes pagar en total:", total_a_pagar)
 
-print (init (input ("Ingresa tu edad")
+edad= (init (input ("Ingresa tu edad")
 if edad >= 18:
 print("Bienvenido! Puedes pasar.")
 
 else 
 print("No puedes pasar aun eres menor de edad.")
-
 print("Fin del programa.")
-             
+
+#Par o impar
+numero =init (input ("Ingresa un numero entero"))
+if numero %2==0
+print (f"Es un {numero} numero par ")
+else 
+prinr (f"Es un {numero}numero impar")
