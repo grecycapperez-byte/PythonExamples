@@ -58,3 +58,11 @@ if numero %2==0
 print (f"Es un {numero} numero par ")
 else 
 prinr (f"Es un {numero}numero impar")
+
+#Calificaciones (Usando elif)
+if nota >= 90
+pritn("Excelente nota!")
+elif nota >= 70 
+pritn("Aprobado.")
+else
+print("Reprobado. Necesitas estudiar más.")
