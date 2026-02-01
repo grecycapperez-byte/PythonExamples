@@ -43,3 +43,13 @@ total_a_pagar = cuenta + propina
 
 print("La propina es:", propina)
 print("Debes pagar en total:", total_a_pagar)
+
+print (init (input ("Ingresa tu edad")
+if edad >= 18:
+print("Bienvenido! Puedes pasar.")
+
+else 
+print("No puedes pasar aun eres menor de edad.")
+
+print("Fin del programa.")
+             
