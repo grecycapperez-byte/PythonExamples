@@ -67,8 +67,9 @@ pritn("Aprobado.")
 else
 print("Reprobado. Necesitas estudiar más.")
 
-producto =init(input("Que precio tiene tu producto?"))
-if precio > 1000 * 0.80
-print(f"nuevo {precio}")
+producto =float(input("Que precio tiene tu producto?"))
+if precio > 1000 
+nuevopre = precio *0.80
+print(f"El nuevo precio con descuento es: {nuevopre}")
 else 
 print("No aplica descuento",precio)
