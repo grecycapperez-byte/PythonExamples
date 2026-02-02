@@ -66,3 +66,9 @@ elif nota >= 70
 pritn("Aprobado.")
 else
 print("Reprobado. Necesitas estudiar más.")
+
+producto =init(input("Que precio tiene tu producto?"))
+if precio > 1000 * 0.80
+print(f"nuevo {precio}")
+else 
+print("No aplica descuento",precio)
