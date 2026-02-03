@@ -44,7 +44,7 @@ total_a_pagar = cuenta + propina
 print("La propina es:", propina)
 print("Debes pagar en total:", total_a_pagar)
 
-edad= (init (input ("Ingresa tu edad")
+edad= (int (input ("Ingresa tu edad")
 if edad >= 18:
 print("Bienvenido! Puedes pasar.")
 
@@ -53,7 +53,7 @@ print("No puedes pasar aun eres menor de edad.")
 print("Fin del programa.")
 
 #Par o impar
-numero =init (input ("Ingresa un numero entero"))
+numero =int (input ("Ingresa un numero entero"))
 if numero %2==0
 print (f"Es un {numero} numero par ")
 else 
@@ -73,3 +73,11 @@ nuevopre = precio *0.80
 print(f"El nuevo precio con descuento es: {nuevopre}")
 else 
 print("No aplica descuento",precio)
+
+#La Montaña Rusa
+altura =float(input("Ingresa la altura: "))
+edad =int(input("ingresa la edad: "))
+if altura >1.40 and edad >10:
+         print("Puedes subir!")
+else:
+          print("Lo siento, no cumples los requisitos")
