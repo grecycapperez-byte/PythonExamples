@@ -81,3 +81,7 @@ if altura >1.40 and edad >10:
          print("Puedes subir!")
 else:
           print("Lo siento, no cumples los requisitos")
+#El Contador
+for numero in range(11):
+    multiplica = 5 * numero 
+    print(multiplica)
