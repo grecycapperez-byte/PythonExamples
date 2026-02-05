@@ -85,3 +85,8 @@ else:
 for numero in range(11):
     multiplica = 5 * numero 
     print(multiplica) 
+for num in range(200)
+ multi = 6 * num 
+         print(multi)
+
+
