@@ -88,5 +88,9 @@ for numero in range(11):
 for num in range(200)
  multi = 6 * num 
          print(multi)
-
-
+#: Mezclando todo (Bucle + If)
+for num in range (1, 11):
+ if num == 5:
+  print("¡MITAD DEL CAMINO!")
+else: 
+    print(num)
