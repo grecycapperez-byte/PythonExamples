@@ -97,5 +97,5 @@ else:
 
 #Listas (Tu primera base de datos)
 amigos = ["Ana", "Beto", "Carla"]
-print (amigos [0])
-print (amigos [2])
+  print (amigos [0])
+    print (amigos [2])
