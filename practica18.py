@@ -94,3 +94,8 @@ for num in range (1, 11):
   print("¡MITAD DEL CAMINO!")
 else: 
     print(num)
+
+#Listas (Tu primera base de datos)
+amigos = ["Ana", "Beto", "Carla"]
+print (amigos [0])
+print (amigos [2])
