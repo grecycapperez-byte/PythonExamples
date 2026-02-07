@@ -99,3 +99,7 @@ else:
 amigos = ["Ana", "Beto", "Carla"]
   print (amigos [0])
     print (amigos [2])
+    amigos[1] = "Roberto"
+amigos.append("Daniel")
+print(amigos) 
+
