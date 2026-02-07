@@ -103,3 +103,10 @@ amigos = ["Ana", "Beto", "Carla"]
 amigos.append("Daniel")
 print(amigos) 
 
+tienda = ["Manzana", "Leche", "Pan"]
+print (tienda [0])
+ print(tienda [2])
+tienda [2]="Cereal"
+tienda.append("Huevos")
+print(tienda)
+
