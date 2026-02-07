@@ -109,4 +109,4 @@ print (tienda [0])
 tienda [2]="Cereal"
 tienda.append("Huevos")
 print(tienda)
-
+print(len(tienda))  # Esto nos diría que hay 4 productos
