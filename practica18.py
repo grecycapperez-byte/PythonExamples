@@ -33,13 +33,17 @@ hora = mintotal //60
 minrest= mintotal % 60
 print("Son",hora,"horas y", minrest, "minutos.")
 
+minto = 500
+hr = minto // 80
+minrestante= minto % 80
+print("Son",hr,"horas y ", minrestante,"minutos")
+
 #Objetivo: Usar el operador de potencia **
-
-
 peso= 58
 altura= 1.56
 masamus=peso/(altura **2)
 print("Tu índice de masa corporal es:", masamus)
+
 
 
 #Ejercicio 5: Tu Calculadora de Edad
