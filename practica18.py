@@ -44,7 +44,10 @@ altura= 1.56
 masamus=peso/(altura **2)
 print("Tu índice de masa corporal es:", masamus)
 
-
+ps=76
+alt= 1.98
+masamos= ps /(alt **2)
+print("EL indice de masa corporal es:",masamos)
 
 #Ejercicio 5: Tu Calculadora de Edad
 
