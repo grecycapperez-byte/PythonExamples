@@ -5,6 +5,12 @@ Alum3=7.5
 alumnos= (Alum1 + Alum2 + Alum3)/3 
 print("El promedio final es:", alumnos)
 
+alumno4=9.3
+alumno5=8.7
+alumno6=6.6
+alumnos2= (alumno4 + alumno5 + alumno6)/3
+print("Promedio del salon es:",alumnos2)
+
 #Area y perimetro 
 #Usar fórmulas matemáticas básicas ($Area = base \times altura$)
 base= 20
@@ -13,6 +19,13 @@ area= base * altura
 perimetro= (2 * base)+(2 * altura)
 print("El area es de:",area)
 print("El perimetro es de:",perimetro)
+
+bc=40
+al=20
+are= bc * al
+perimtro= (2 * bc) + (2 * al)
+print("El area es de:",are)
+print("El perimetro es de:",perimtro)
 
 #Entender la diferencia entre división normal / y división entera //.
 mintotal = 130
