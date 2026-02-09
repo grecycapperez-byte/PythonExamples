@@ -130,14 +130,19 @@ for numero in range (100, 0)
 amigos = ["Ana", "Beto", "Carla"]
   print (amigos [0])
     print (amigos [2])
-    amigos[1] = "Roberto"
+    amigos[1] = "Roberto" 
 amigos.append("Daniel")
 print(amigos) 
 
+
+#El Recorrido del Inventario (Bucle + Lista)
 tienda = ["Manzana", "Leche", "Pan"]
 print (tienda [0])
  print(tienda [2])
 tienda [2]="Cereal"
 tienda.append("Huevos")
 print(tienda)
-print(len(tienda))  # Esto nos diría que hay 4 productos
+print(len(tienda))# Esto nos diría que hay 4 productos
+for objeto in tienda: 
+      print("Producto disponible!")
+
