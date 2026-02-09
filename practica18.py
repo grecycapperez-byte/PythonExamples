@@ -114,6 +114,9 @@ for num in range (1, 11):
   print("¡MITAD DEL CAMINO!")
 else: 
     print(num)
+ for edad in range (20,40)
+if edad ==5
+print("En camino de adulto!")
 
 #Listas (Tu primera base de datos)
 amigos = ["Ana", "Beto", "Carla"]
