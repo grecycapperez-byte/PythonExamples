@@ -70,7 +70,7 @@ print("Bienvenido! Puedes pasar.")
 
 else 
 print("No puedes pasar aun eres menor de edad.")
-print("Fin del programa.")
+      print("Fin del programa.")
 
 #Par o impar
 numero =int (input ("Ingresa un numero entero"))
@@ -105,18 +105,26 @@ else:
 for numero in range(11):
     multiplica = 5 * numero 
     print(multiplica) 
+         
 for num in range(200)
  multi = 6 * num 
          print(multi)
+
 #: Mezclando todo (Bucle + If)
 for num in range (1, 11):
  if num == 5:
   print("¡MITAD DEL CAMINO!")
 else: 
     print(num)
+         
  for edad in range (20,40)
 if edad ==5
 print("En camino de adulto!")
+
+for numero in range (100, 0)
+ print("De reversa!")
+
+
 
 #Listas (Tu primera base de datos)
 amigos = ["Ana", "Beto", "Carla"]
