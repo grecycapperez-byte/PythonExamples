@@ -144,5 +144,5 @@ tienda.append("Huevos")
 print(tienda)
 print(len(tienda))# Esto nos diría que hay 4 productos
 for objeto in tienda: 
-      print("Producto disponible!",objeto)
+print("Producto disponible!",objeto)
 
