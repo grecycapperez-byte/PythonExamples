@@ -10,14 +10,13 @@ def registrar_ingreso():
 
     try:
         while True:
-            # Simulamos la detección de desbloqueo
             input("Esperando desbloqueo...") 
             
             contador += 1
             ahora = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             log_entry = f"Ingreso #{contador} detectado a las: {ahora}"
             
-            # Guardar en el archivo
+        
             with open(archivo_log, "a") as f:
                 f.write(log_entry + "\n")
             
