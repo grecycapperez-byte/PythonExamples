@@ -146,10 +146,4 @@ print(len(tienda))# Esto nos diría que hay 4 productos
 for objeto in tienda: 
 print("Producto disponible!",objeto)
 
-precios = [10, 50, 25]
-total=0
-for precios in range (precios)
-total = total + precio
-print("El costo total de su compra es: $")
-if total =>100
-print("¡Felicidades! Tienes un cupón de regalo")
+
