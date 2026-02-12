@@ -1,7 +1,6 @@
-# ---------------------------------------------------------
+
 # REPASO GENERAL DE FUNDAMENTOS DE PYTHON
-# Autor: [Tu Nombre]
-# ---------------------------------------------------------
+# Autor: Dulce Grecia Pérez Capilla 
 
 print("--- 1. VARIABLES Y MÓDULO ---")
 # Inicialización de variables iniciales
