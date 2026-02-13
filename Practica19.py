@@ -2,12 +2,12 @@
 # REPASO GENERAL DE FUNDAMENTOS DE PYTHON
 # Autor: Dulce Grecia Pérez Capilla 
 
-print("--- 1. VARIABLES Y MÓDULO ---")
-# Inicialización de variables iniciales
+print(" 1. VARIABLES Y MÓDULO ")
+
 a, b, c = 9, 2, 11
-d = a % 2   # Resultado: 1
-e = b % 3   # Resultado: 2
-f = c % 10  # Resultado: 1
+d = a % 2   
+e = b % 3   
+f = c % 10  
 
 print(f"Valores de módulo calculados: d={d}, e={e}, f={f}\n")
 
@@ -48,12 +48,12 @@ total = 0
 # Recorrer la lista y sumar
 print("Escaneando productos...")
 for p in precios:
-    total += p  # Esto es lo mismo que total = total + p
+    total += p  
     print(f"Sumando precio: ${p}")
 
 print(f"\nSubtotal: ${total:.2f}")
 
-# Lógica final de descuento
+
 if total > 10:
     descuento = total * 0.10
     total_final = total - descuento
@@ -63,5 +63,5 @@ else:
     print(f"TOTAL A PAGAR: ${total:.2f}")
     print("No alcanzaste el mínimo para descuento.")
 
-print("\n--- Fin del programa de fundamentos ---")
+print("Fin del programa de fundamentos")
      
