@@ -9,3 +9,18 @@ total_gastado = 0
 for g in gastos:
     total_gastado = total_gastado + g
     print(f"Procesando gasto: ${g}")
+if total_gastado > presumax:
+    print("¡CUIDADO! Te has pasado del presupuesto.")
+    diferencia = total_gastado - presumax
+    print(f"Debes reducir tus gastos en: ${diferencia}")
+elif total_gastado > (presumax* 0.8):
+    print("Estás cerca del límite. ¡Gasta con precaución!")
+else:
+    print("Todo bien. Tu presupuesto está bajo control.")if total_gastado > presumax:
+    print("¡CUIDADO! Te has pasado del presupuesto.")
+    diferencia = total_gastado - presumaximo
+    print(f"Debes reducir tus gastos en: ${diferencia}")
+elif total_gastado > (presumax * 0.8):
+    print("Estás cerca del límite. ¡Gasta con precaución!")
+else:
+    print("Todo bien. Tu presupuesto está bajo control.")
