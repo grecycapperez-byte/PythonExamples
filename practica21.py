@@ -22,3 +22,12 @@ else:
     print(f"Te faltan ${abs(resultado)}") # abs() convierte números negativos a positivos
 
 
+
+
+
+viaje_paris = revisar_presupuesto([100, 200, 50], 500)
+viaje_tokio = revisar_presupuesto([500, 800], 1000)
+viaje_mexico = revisar_presupuesto([50, 20, 30], 200)
+
+print(f"Balance París: {viaje_paris}")
+print(f"Balance Tokio: {viaje_tokio}")
