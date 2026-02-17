@@ -38,3 +38,13 @@ viaje_mexico = revisar_presupuesto([50, 20, 30], 200)
 
 print(f"Balance París: {viaje_paris}")
 print(f"Balance Tokio: {viaje_tokio}")
+
+#Calculadora de IVA
+def calcular_iva (precio):
+    impuesto =precio * 0.16
+    total = precio + impuesto 
+    return total
+    precio_usuario= float(input ("Ingresa el precio:"))
+precio_final = calcular_iva (precio_usuario)
+print (f"El precio total con IVA es de: ${precio_final:.2}")
+    
