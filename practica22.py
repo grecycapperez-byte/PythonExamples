@@ -40,11 +40,13 @@ print(f"Balance París: {viaje_paris}")
 print(f"Balance Tokio: {viaje_tokio}")
 
 #Calculadora de IVA
-def calcular_iva (precio):
-    impuesto =precio * 0.16
-    total = precio + impuesto 
+def calcular_total_del_viaje (precio,descuento):
+    precio_con_descuento= precio - descuento
+    impuesto =precio_con_descuento * 0.16
+    total = precio_con_descueto + impuesto 
     return total
-    precio_usuario= float(input ("Ingresa el precio:"))
-precio_final = calcular_iva (precio_usuario)
+    precio_original= float(input ("Ingresa el precio:"))
+    desc = float(input("Ingresa el monto a descontar: "))
+precio_final = calcular_total_del_viaje (precio_original,desc)
 print (f"El precio total con IVA es de: ${precio_final:.2}")
     
