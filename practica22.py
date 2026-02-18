@@ -49,4 +49,41 @@ def calcular_total_del_viaje (precio,descuento):
     desc = float(input("Ingresa el monto a descontar: "))
 precio_final = calcular_total_del_viaje (precio_original,desc)
 print (f"El precio total con IVA es de: ${precio_final:.2}")
-    
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+#Bucle while
+respuesta = ""
+while respuesta != "salir":
+    respuesta = input("Escribe algo (o 'salir' para terminar): ")
+
+
+def calcular_total_con_iva(lista_precios):
+    subtotal= sum(lista_precios)
+    total = subtotal * 1.16
+    return total 
+    productos = []
+    escaneo= True 
+    print("BIENVENIDO A LA SUPER TIENDA ")
+    print("(Escribe 'cobrar' cuando hayas terminado)")
+
+while escaneando:
+    entrada= input("Escanea el precio del producto:")
+
+if entrada.lower()== "cobrar":
+    escaneando = False 
+else: 
+    precio = float(entrada)
+    productos.append (precio)
+    print(f"Producto de {precio} añadido.")
+
+if len(productos) > 0:
+    pago_final = calcular_total_con_iva(productos)
+    print("\n" + "=" *20)
+    print(f"Has comprado{Len(productos)}productos.")
+    print(f"TOTAL A PAGAR (IVA incluido):${pago_final:.2}")
+    print("="*20)
+else:
+    print("No compraste nada hoy. Vuelve printo!")
+
