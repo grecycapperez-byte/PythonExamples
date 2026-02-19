@@ -95,4 +95,10 @@ if edad >=18 :
      print ("Puedes pasar a ver la pelicula.")
 else:
     print("Lo siento, necesitas ser mayor de edad.")
-     
+
+#El Probador de Números (Par o Impar)
+num=int(input("Ingresa el numero del usuario:"))
+if num % 2==0:
+    print("Es numero un par")
+else:
+    print("Es numero impar")
