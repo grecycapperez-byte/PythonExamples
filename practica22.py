@@ -99,6 +99,6 @@ else:
 #El Probador de Números (Par o Impar)
 num=int(input("Ingresa el numero del usuario:"))
 if num % 2==0:
-    print("Es numero un par")
+    print("Es un numero par")
 else:
     print("Es numero impar")
