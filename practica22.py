@@ -105,5 +105,12 @@ else:
 
 #semaforo inteligente 
 color=int(input("Igresa un color del semaforo"))
-elif verde=print("Avanza!")
+elif  Verde 
+pritn("Avanza!")
+else:
+pritn("Color no valido")
+elif amarillo
+print("precaucion!")
+elif rojo
+print("detente")
 
