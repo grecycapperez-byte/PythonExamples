@@ -103,14 +103,5 @@ if num % 2==0:
 else:
     print("Es numero impar")
 
-#semaforo inteligente 
-color=int(input("Igresa un color del semaforo"))
-elif  Verde 
-pritn("Avanza!")
-else:
-pritn("Color no valido")
-elif amarillo
-print("precaucion!")
-elif rojo
-print("detente")
+
 
