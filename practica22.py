@@ -105,3 +105,25 @@ else:
 
 
 
+# SIMULADOR DE LEYES ROBÓTICAS
+orden = input("¿Qué orden le das al robot? ")
+identidad = input("¿Quién da la orden? (humano/robot): ")
+
+# El robot solo obedece a humanos
+if identidad == "robot":
+    print("No recibo órdenes de otros robots.")
+
+# PRIMERA LEY: No dañar humanos
+elif "golpear" in orden or "herir" in orden:
+    print("ERROR: No puedo dañar a un humano. (1ra Ley)")
+
+# SEGUNDA LEY: Obedecer órdenes (si no rompen la primera)
+elif orden == "limpiar" or orden == "trabajar":
+    print("ORDEN ACEPTADA: Empezando a " + orden)
+
+# TERCERA LEY: Protección propia
+elif orden == "salta al fuego":
+    print("ERROR: Debo proteger mi existencia. (3ra Ley)")
+
+else:
+    print("No entiendo esa orden o no entra en mis protocolos.")
