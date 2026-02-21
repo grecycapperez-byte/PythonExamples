@@ -132,12 +132,12 @@ else:
 #Clasificador de temperaturas 
 temp = float(input("¿A cuántos grados estamos? "))
 if temp == 30:
-print("Hace mucha calor!")
+   print("Hace mucha calor!")
 elif temp >= 20:
-print("Aqui el clima esta perfecto!")
+       print("Aqui el clima esta perfecto!")
 elif temp >=10:
-print("Está fresco, lleva suéter")
-else:
-print("Hace mucho frío")
 
+     print("Está fresco, lleva suéter")
+else:
+       print("Hace mucho frío")
 
