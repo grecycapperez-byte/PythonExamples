@@ -127,3 +127,14 @@ elif orden == "salta al fuego":
 
 else:
     print("No entiendo esa orden o no entra en mis protocolos.")
+
+
+#Clasificador de temperaturas 
+temp = float(input("¿A cuántos grados estamos? "))
+if temp == 30:
+print("Hace mucha calor!")
+elif temp >= 20:
+print("Aqui el clima esta perfecto!")
+elif temp >=10:
+print("Está fresco, lleva suéter 🧥")
+
