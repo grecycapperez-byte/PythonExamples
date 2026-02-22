@@ -141,3 +141,14 @@ elif temp >=10:
 else:
        print("Hace mucho frío")
 
+#El Examen de la Academia Jedi
+color=float(input("¿Qué color de sable de luz prefieres? (verde, azul, rojo)"))
+if color == verde:
+    print("Eres un Maestro como Yoda")
+elif color ==azul:
+    print("Eres un Caballero como Anakin")
+elif color==rojo:
+    print("Te has unido al Lado Oscuro (Sith)")
+else:
+    print("Ese color no existe en la galaxia")
+
