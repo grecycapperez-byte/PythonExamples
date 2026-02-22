@@ -142,18 +142,27 @@ else:
        print("Hace mucho frío")
 
 #El Examen de la Academia Jedi
-color=float(input("¿Qué color de sable de luz prefieres? (verde, azul, rojo)"))
-if color == verde:
+color= input("¿Qué color de sable de luz prefieres?")
+if color == "verde":
     print("Eres un Maestro como Yoda")
-elif color ==azul:
+elif color == "azul":
     print("Eres un Caballero como Anakin")
-elif color==rojo:
+elif color=="rojo":
     print("Te has unido al Lado Oscuro (Sith)")
 else:
     print("Ese color no existe en la galaxia")
 
-
 #Calculadora de Descuentos
-monto=float(input("Monto total"))
-if monto ==$1000:
+compra=float(input("Monto total:"))
+if compra >= 1000:
+    descuento = compra * 0.20
+    pago_total = compra - descuento
+    print(f"¡Felicidades! Tienes un descuento de 20%. Pagas: ${pago_total}")
+elif compra >=500:
+    descuento = compra * 0.10
+    pagototal = compra - descuento
+    print(f"Felicidades tienes un descuento del 10%. Pagas: ${pagototal}")
+else: 
+    compra <= 500
+    print(f"No tienes descuento. Pagas: ${compra}")
 
