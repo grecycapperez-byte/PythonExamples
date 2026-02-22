@@ -152,3 +152,8 @@ elif color==rojo:
 else:
     print("Ese color no existe en la galaxia")
 
+
+#Calculadora de Descuentos
+monto=float(input("Monto total"))
+if monto ==$1000:
+
