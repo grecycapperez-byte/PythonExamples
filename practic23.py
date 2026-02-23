@@ -72,5 +72,18 @@ elif compra >=500:
     pagototal = compra - descuento
     print(f"Felicidades tienes un descuento del 10%. Pagas: ${pagototal}")
 else: 
-    compra <= 500
     print(f"No tienes descuento. Pagas: ${compra}")
+
+#restaurante de comida rapida 
+Pizza:10.00
+Hamburguesa:8.00
+Ensalada: 6.00
+cliente = input("¿Qué comida deseas ordenar?")
+if cliente.lower()  == "pizza":
+    print("El precio de la Pizza es $10.00")
+elif cliente.lower() == "hamburguesa":
+    print("El precio de la Hamburguesa es $8.00")
+elif cliente.lower() == "ensalada":
+    print("El precio de la Ensalada es $6.00")
+else: 
+       print("Lo siento, no tenemos esa comida disponible.")
