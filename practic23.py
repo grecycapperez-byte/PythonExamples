@@ -87,3 +87,20 @@ elif cliente.lower() == "ensalada":
     print("El precio de la Ensalada es $6.00")
 else: 
        print("Lo siento, no tenemos esa comida disponible.")
+
+
+
+#La Hucha de Ahorros
+
+#La Hucha de Ahorros
+total_ahorros = 0
+while True:
+    ingreso = float(input("Ingrese el monto a ahorrar (o -1 para salir): "))
+    if ingreso == -1:
+        break
+    total_ahorros += ingreso
+    print(f"Total ahorrado hasta ahora: {total_ahorros:.2f}")
+    if total_ahorros >= 500:
+        print("¡Meta alcanzada! Has ahorrado 500 o más.")
+        break
+
