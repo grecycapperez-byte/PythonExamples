@@ -104,3 +104,17 @@ while True:
         print("¡Meta alcanzada! Has ahorrado 500 o más.")
         break
 
+#La Lista de Invitados a tu Fiesta
+#invitados 
+invitados = []
+while True:
+     nombre = input("¿A quién quieres invitar? ")
+     if nombre == "fin":
+          break
+     print(f"Nuevo invitado: {nombre}")
+     invitados.append(nombre)
+print("Lista de invitados:")
+for invitado in invitados:
+     print(invitado)        
+
+     
