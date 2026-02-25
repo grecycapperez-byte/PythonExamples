@@ -121,14 +121,10 @@ for invitado in invitados:
 
 
 import random
-
-# El programa elige un número entre 1 y 10
 numero_secreto = random.randint(1, 10)
 intento = 0
 
 print("¡He pensado un número del 1 al 10! Intenta adivinarlo.")
-
-# El bucle se repite mientras el intento sea diferente al número secreto
 while intento != numero_secreto:
     intento = int(input("Introduce tu número: "))
     
