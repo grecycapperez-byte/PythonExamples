@@ -140,3 +140,19 @@ print("Fin del juego.")
 
 
 
+pin_correcto = "1234"
+intentos_restantes = 3
+
+while intentos_restantes > 0:
+    print(f"Tienes {intentos_restantes} intentos.")
+    password = input("Introduce tu PIN de 4 dígitos: ")
+    
+    if password == pin_correcto:
+        print("Acceso concedido. Bienvenido a tu cuenta.")
+        break  # El break rompe el bucle inmediatamente
+    else:
+        intentos_restantes = intentos_restantes - 1
+        print("PIN incorrecto.")
+
+if intentos_restantes == 0:
+    print("Tarjeta bloqueada por seguridad.")
