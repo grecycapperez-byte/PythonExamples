@@ -136,3 +136,7 @@ while intento != numero_secreto:
         print("¡Exacto! Lo lograste.")
 
 print("Fin del juego.")
+
+
+
+
