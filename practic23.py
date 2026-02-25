@@ -149,7 +149,7 @@ while intentos_restantes > 0:
     
     if password == pin_correcto:
         print("Acceso concedido. Bienvenido a tu cuenta.")
-        break  # El break rompe el bucle inmediatamente
+        break  
     else:
         intentos_restantes = intentos_restantes - 1
         print("PIN incorrecto.")
