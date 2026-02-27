@@ -18,3 +18,10 @@ elif not any(char.isdigit() for char in password):
 
 else:
     print("¡Perfecto! Contraseña segura creada con éxito.")
+
+
+gato= input("Encontrate a tu gato?")
+if gato == "si"
+print("Me alegra que lo allas encontrado!  :) ")
+else:
+print("Lo siento mucho por ti. :(")
