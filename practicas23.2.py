@@ -25,3 +25,20 @@ if gato == "si"
 print("Me alegra que lo allas encontrado!  :) ")
 else:
 print("Lo siento mucho por ti. :(")
+
+#Adivina el numero 
+import random
+numero_secreto = random.randitn(1,10)
+intento =0
+print("He pensado un numero del 1 al 10! intenta adivinarlo.")
+while intento != numero_secreto
+intento= int(input("Introcduce tu numero:"))
+if intento < numero_secreto:
+    print("NEL pastel. Inteta de nuevo!")
+elif intento > numero_secreto:
+    print("NEL paste te fuiste muy alto. Intenta de nuevo! ")
+else:
+    print("Esooo! Lo lograste")
+
+print("Fin del juego.")
+
