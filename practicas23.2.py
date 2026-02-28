@@ -31,7 +31,7 @@ import random
 numero_secreto = random.randitn(1,10)
 intento =0
 print("He pensado un numero del 1 al 10! intenta adivinarlo.")
-while intento != numero_secreto
+while intento != numero_secreto:
 intento= int(input("Introcduce tu numero:"))
 if intento < numero_secreto:
     print("NEL pastel. Inteta de nuevo!")
@@ -43,9 +43,15 @@ else:
 print("Fin del juego.")
 
 
-import chofer 
-adivino = chofer.randitn(1,20)
-intent = 0
-print("Si adivino el numeor que estas pensando te regalo el viaje!")
+import random
+chofer = random.randint(1, 20)
+adivina = int(input("adivinare  el numero que piensas del 1 al 20: "))
+if adivina == chofer:
+    print("felicidades, has ganado el viaje")
+else:
+    print("lo siento, perdiste", chofer )
+
+
+
 
 
