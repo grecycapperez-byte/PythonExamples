@@ -42,3 +42,10 @@ else:
 
 print("Fin del juego.")
 
+
+import chofer 
+adivino = chofer.randitn(1,20)
+intent = 0
+print("Si adivino el numeor que estas pensando te regalo el viaje!")
+
+
