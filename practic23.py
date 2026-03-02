@@ -156,3 +156,40 @@ while intentos_restantes > 0:
 
 if intentos_restantes == 0:
     print("Tarjeta bloqueada por seguridad.")
+
+
+
+#Modificacion 
+saldo = 1000
+pin_secreto = "1234"
+acceso = False
+
+intento_pin = input("Ingrese su PIN para comenzar: ")
+if intento_pin == pin_secreto:
+    acceso = True
+    print("Acceso correcto.")
+else:
+    print("PIN incorrecto. Saliendo...")
+
+while acceso == True:
+    print("MENÚ BANCARIO ")
+    print("1. Consultar saldo")
+    print("2. Retirar dinero")
+    print("3. Salir")
+    
+    opcion = input("Selecciona una opción (1-3): ")
+    
+    if opcion == "1":
+        print(f"Tu saldo actual es de: ${saldo}")
+    elif opcion == "2":
+        retiro = int(input("¿Cuánto deseas retirar?: "))
+        if retiro <= saldo:
+            saldo = saldo - retiro
+            print(f"Retiro exitoso. Nuevo saldo: ${saldo}")
+        else:
+            print("Error: Fondos insuficientes.")
+    elif opcion == "3":
+        print("Gracias por usar nuestro cajero. ¡Adiós!")
+        break 
+    else:
+        print("Opción no válida, intenta de nuevo.")
