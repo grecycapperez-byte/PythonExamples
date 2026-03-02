@@ -137,6 +137,32 @@ while intento != numero_secreto:
 
 print("Fin del juego.")
 
+#Modificacion de random 
+import random
+
+numero_secreto = random.randint(1, 20) 
+energia = 5 
+
+print(" JUEGO DE SUPERVIVENCIA NUMÉRICA ")
+print("Adivina el número del 1 al 20. Tienes 5 puntos de energía.")
+
+while energia > 0:
+    intento = int(input(f"\nEnergía actual ({energia}): Introduce tu número: "))
+    
+    if intento == numero_secreto:
+        print("¡Increíble! Has recuperado tu libertad. Ganaste.")
+        break
+    else:
+        energia = energia - 1
+        if intento < numero_secreto:
+            print("Pista: El número es más alto.")
+        else:
+            print("Pista: El número es más bajo.")
+            
+        if energia == 0:
+            print(f"Te has quedado sin energía. El número era {numero_secreto}. GAME OVER.")
+
+
 
 
 
