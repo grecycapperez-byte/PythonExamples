@@ -12,8 +12,6 @@ if num % 2==0:
 else:
     print("Es numero impar")
 
-
-
 # SIMULADOR DE LEYES ROBÓTICAS
 orden = input("¿Qué orden le das al robot? ")
 identidad = input("¿Quién da la orden? (humano/robot): ")
