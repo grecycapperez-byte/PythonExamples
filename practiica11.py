@@ -1,3 +1,8 @@
+# ============================================
+# Practica 11 - Manejo de Excepciones
+# Creado con MCP (Model Context Protocol)
+# ============================================
+
 #manejo de excepciones 
 
  #TRY
@@ -18,7 +23,8 @@ except ZeroDivisionError:
 except ValueError:
     print("Error: Valor inválido")
   
- #FINALY
+ #FINALLY
+archivo = None
 try:
     # Código que puede generar una excepción
     archivo = open("archivo.txt", "r")
@@ -26,4 +32,5 @@ try:
 except FileNotFoundError:
     print("Error: Archivo no encontrado")
 finally:
-    archivo.close()  # Cerrar el archivo siempre, incluso si ocurre una excepción
+    if archivo:
+        archivo.close()  # Cerrar el archivo siempre, incluso si ocurre una excepción
